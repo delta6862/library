@@ -1,4 +1,4 @@
-# Magister
+
 ![thumbnail]
 
 [thumbnail]: https://github.com/delta6862/library/blob/master/images/thumbnail.png?raw=true ""
@@ -17,9 +17,11 @@ This post is about a bug found in Magister which allowed a malicious acter to ta
 So first off, what is Magister?
 > Magister is a Dutch online administrative application, used in the schooling system in secondary education. All of the students' information is on this platform. Students, parents and teachers are able to access this at all times. It is used to keep up with the management, administration and health issues of students, and users can also view their grades, timetable, homework assignments and absences. In 2012 the software had a 70% market share in the Netherlands. 
 > (source: https://en.wikipedia.org/wiki/Magister_(application))
+
 From this description there are two main takeaways;
 1. If used by a school it plays a critical role in both the schools and the students school-related administration.
 2. Its widely used in the Netherlands.
+
 We can verify how widely used Magister is ourselfs aswell.
 According to [onderwijsincijfers](https://www.onderwijsincijfers.nl/kengetallen/vo/instellingen-vo/aantallen-aantal-vo-scholen) there were 1450 secondary schools in the Netherlands.
 Each school gets its own subdomain, using a tool like [dnsdumpster](https://dnsdumpster.com/) we can see most, if not all, of these domains. This gets us to a total of...
@@ -33,7 +35,7 @@ This means 765 out of the total 1450 secondary schools use magister. Giving us a
 ## The bug
 In Magister, as with most platforms. There is a password reset feature. Upon activation this will send a 6 didget base-16 code to the email address listed to your account.
 This code gives us a total of `16^6=16777216`combinations. Not great if we wanted to brute force it, but better than the `1.2806308e+14` or more combinations possible if we were to bruteforce a password directly.
-However the email also mentions the code to be valid for a short period of time. Afther some experimentation I found that the following:
+However the email also mentions the code to be valid for a short period of time. Afther some experimentation I found the following:
 - Unlike the main login page Magister does not have a softlocking feature for the reset code, making it a valid vector of attack.
 - The code lifetime is linked to the user session, generaly a new session will be given to the user afther 30 minutes
 - The lifetime of a users session can be extended by sending a new request within the 30 minute window.

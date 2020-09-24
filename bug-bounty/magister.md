@@ -78,4 +78,4 @@ This could allow you to lock out all users on the network effectively shutting d
 
 ## Closing notes
 - Despite how simple this bug seems I do want to compliment Magister on their security, I have spent extensive time looking at the rest of their platform without finding any bugs or other security flaws.
-- This bug highlights how I feel bug hunters should approach a target, while straight away testing for XSS and SQLI on every user input is a valid approach (and one that has worked for me in the bast) I encourage you to research the feature you're trying to exploit and then ask the question "How can I abuse this to my advantage?"
+- This bug highlights how I feel bug hunters should approach a target, while straight away testing for XSS and SQLI on every user input is a valid approach (and one that has worked for me in the past) I encourage you to research the feature you're trying to exploit and then ask the question "How can I abuse this to my advantage?"

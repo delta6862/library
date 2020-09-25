@@ -1,2 +1,2 @@
 # library
-storage space for text/blogs/writeups or something i feel fits here
+Storage space for text/blogs/writeups or something else I feel fits here.

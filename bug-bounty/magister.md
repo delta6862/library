@@ -1,6 +1,6 @@
 ![thumbnail]
 
-[thumbnail]: https://github.com/delta6862/library/blob/master/images/thumbnail.png?raw=true ""
+[thumbnail]: https://github.com/delta6862/library/blob/master/images/magister-password-reset/thumbnail.png?raw=true ""
 ## Overview
 - [Introduction](#introduction)
 - [Magister](#magister)
@@ -63,12 +63,12 @@ After getting no response for a while I suspected this was the end of the report
 
 And with that, the reporting process was completed.
 
-[main-bug-report]: https://github.com/delta6862/library/blob/master/images/main%20report.png ""
-[comment-1]: https://github.com/delta6862/library/blob/master/images/comment-page-1.png?raw=true ""
-[comment-2]: https://github.com/delta6862/library/blob/master/images/comment-page-2.png?raw=true ""
-[comment-3]: https://github.com/delta6862/library/blob/master/images/comment-page-3.png?raw=true ""
-[comment-4]: https://github.com/delta6862/library/blob/master/images/comment-page-4.png?raw=true ""
-[comment-5]: https://github.com/delta6862/library/blob/master/images/comment-page-5.png?raw=true ""
+[main-bug-report]: https://github.com/delta6862/library/blob/master/images/magister-password-reset/main%20report.png ""
+[comment-1]: https://github.com/delta6862/library/blob/master/images/magister-password-reset/comment-page-1.png?raw=true ""
+[comment-2]: https://github.com/delta6862/library/blob/master/images/magister-password-reset/comment-page-2.png?raw=true ""
+[comment-3]: https://github.com/delta6862/library/blob/master/images/magister-password-reset/comment-page-3.png?raw=true ""
+[comment-4]: https://github.com/delta6862/library/blob/master/images/magister-password-reset/comment-page-4.png?raw=true ""
+[comment-5]: https://github.com/delta6862/library/blob/master/images/magister-password-reset/comment-page-5.png?raw=true ""
 
 ## Impact
 Now we have arrived at the part where I get to put down all the idea's I've come across that could have been done with this besides the obvious 'change your grade', I do want to point out that none of these ideas have been attempted using the bug described in this post.

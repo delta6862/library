@@ -95,6 +95,7 @@ Within Iddink Group we are pleased with how this vulnerability was reported and 
 ```
 - I urge both blue and red team to check each endpoint individually. Just because a certain feature was implemented correctly on one endpoint doesn't mean this is the case everywhere on the
 application. Legacy code can cause a lot of oversights if not properly maintained.
+- My point of contact at Iddink group kindly pointed out that the final exploit mentioned in [Exploitation and impact](#exploitation-and-impact) is not possible with this vulnerability. Evidently users can only be added with Magister desktop, which requires 2f. This means an attacker can't achieve persistence with the password reset option.
 
 [thumbnail]: https://github.com/delta6862/library/blob/master/images/magister-elo-bronnen/thumbnail.png?raw=true ""
 [comment-1]: https://github.com/delta6862/library/blob/master/images/magister-elo-bronnen/comment-page-1.png?raw=true ""

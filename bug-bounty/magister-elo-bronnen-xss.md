@@ -96,7 +96,7 @@ Within Iddink Group we are pleased with how this vulnerability was reported and 
 - I urge both blue and red team to check each endpoint individually. Just because a certain feature was implemented correctly on one endpoint doesn't mean this is the case everywhere on the
 application. Legacy code can cause a lot of oversights if not properly maintained.
 [thumbnail]: media/thumbnail.png
-[comment-1]: media/comment-page-1.png
-[comment-2]: media/comment-page-2.png
-[comment-3]: media/comment-page-3.png
-[comment-4]: media/comment-page-4.png
+[comment-1]: https://github.com/delta6862/library/blob/master/images/comment-page-1.png?raw=true ""
+[comment-2]: https://github.com/delta6862/library/blob/master/images/comment-page-2.png?raw=true ""
+[comment-3]: https://github.com/delta6862/library/blob/master/images/comment-page-3.png?raw=true ""
+[comment-4]: https://github.com/delta6862/library/blob/master/images/comment-page-4.png?raw=true ""
